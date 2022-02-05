@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0px auto 0px auto;
+    padding: 44px;
+}
+
+a {
+    text-decoration: none;
+}
+.header-hrefs {
+    font-family:  'Rowdies', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.923077px;
+    text-transform: uppercase;
+    color: #83888F;
+    padding-left: 32px;
+}
+
+.header-hrefs:focus{
+    color: black;
+}
+
+
+.about-bordering {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Rowdies', cursive;
+}
+
+.right .cancel{
+    display: none;
+}
+
+            /* desktop hard part  */
+
+.hard-part{
+    margin-top: 46px;
+    background-image: url('./images/abouthard.png');
+    background-size: cover;
+    object-fit: cover;
+    height: 450px;
+    padding: 137px 85px; 
+}
+
+.hard-text-container{
+    border: 1px solid red;
+    max-width: 455px;
+    max-height: 176px;
+}
+
+.hard-title{
+    font-family: 'Rowdies', cursive;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+    margin-bottom: 24px;
+}
+
+.hard-text{
+    max-width: 455px;
+    font-family: 'Quintessential', cursive;;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    
+}
+
+
+
+@media only screen and (max-width:1000px){
+
+            /* hard part  */
+
+    .hard-part{
+        background-image: url('./images/abouthardtablet.jpg');
+    }
+}
